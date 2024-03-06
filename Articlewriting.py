@@ -4,7 +4,7 @@ import streamlit as st
 
 clt = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key='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'
+    api_key='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')
 
 def main():
     st.title("Article Writer")
